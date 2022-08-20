@@ -1,0 +1,11 @@
+{
+    "project_name": "Wolf Gear Project",
+    "program_name": "{{ cookiecutter.project_name }}",
+    "project_name_slug": "{{ cookiecutter.project_name.replace(' ', '-') }}",
+    "project_name_dns": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+    "project_squad": ["No Owner", "Owners"],
+    "bsd3_license": "y",
+    "project_description": "This project contains all boilerplate you need to create a new project.",
+    "python_version": "3.10",
+    "black_target_version": "{{ 'py' + cookiecutter.python_version.replace('.', '') }}"
+} 
