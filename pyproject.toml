@@ -7,7 +7,7 @@ build_command = "mkdir -p dist"
 
 [tool.poetry]
 name = "program_cookie"
-version = "0.0.0"
+version = "1.0.0"
 description = "A cookiecutter for prograns build with python."
 authors = ["Wolf Gear <opensource@wolfgear.tech>"]
 license = "BSD 3-Clause License"
